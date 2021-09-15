@@ -1275,8 +1275,8 @@ CONTACT US PAGE
                 1. Banner    
 **************************************************/
 .contact-us__banner-layout {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
-    url(../images/Grey_Background_option.png);
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/contact-us__bg.png);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;

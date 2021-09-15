@@ -267,4 +267,8 @@
   .contact-us__details--social-text {
     font-size: 3rem;
   }
+
+  .contact-us__details {
+    background-color: transparent;
+  }
 }
