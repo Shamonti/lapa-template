@@ -57,6 +57,10 @@
   .heading-2 {
     font-size: 5rem;
   }
+
+  .contact-us__details--social-text {
+    font-size: 2rem;
+  }
 }
 /* Small devices (-sm-, <768px) */
 @media only screen and (max-width: 767.98px) {
@@ -164,6 +168,10 @@
 }
 /* Extra small devices (-xm-, <576px) */
 @media only screen and (max-width: 575.98px) {
+  html {
+    font-size: 45%;
+  }
+
   .navbar {
     width: 40.6rem;
     height: 5rem;
@@ -242,5 +250,21 @@
 
   .border--right {
     display: none;
+  }
+
+  .contact-us__map {
+    grid-row: 3 / 4;
+  }
+
+  .contact-us__details {
+    grid-row: 2 /3;
+  }
+
+  .contact-us__details--social-heading {
+    font-size: 1.5rem;
+  }
+
+  .contact-us__details--social-text {
+    font-size: 3rem;
   }
 }
