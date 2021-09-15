@@ -1,0 +1,246 @@
+/*************************************************
+              Responsive media query    
+**************************************************/
+
+/* Large devices (-xxl-, <1200px) */
+@media only screen and (max-width: 1599.98px) {
+  .footer__text {
+    font-size: 1.5rem;
+  }
+}
+/* Large devices (-xl-, <1200px) */
+@media only screen and (max-width: 1399.98px) {
+}
+/* Large devices (-lg-, <1200px) */
+@media only screen and (max-width: 1199.98px) {
+  .cta .border--lineheading-2 {
+    font-size: 5rem;
+  }
+}
+/* Medium devices (-md-, <992px) */
+@media only screen and (max-width: 991.98px) {
+  html {
+    font-size: 56.25%;
+  }
+
+  .modal--signup {
+    width: 92%;
+  }
+
+  .sidebar {
+    height: 90vh;
+  }
+
+  .banner {
+    height: 90vh;
+  }
+
+  #overlay {
+    height: 94.5%;
+  }
+
+  .overlay {
+    height: 94.5%;
+  }
+
+  .carousel-indicators {
+    bottom: 29px;
+  }
+  .calendar__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .buttons-container {
+    width: 100%;
+  }
+  .heading-2 {
+    font-size: 5rem;
+  }
+}
+/* Small devices (-sm-, <768px) */
+@media only screen and (max-width: 767.98px) {
+  html {
+    font-size: 50%;
+  }
+
+  .modal--signup .form-input {
+    margin-right: -3px;
+    width: 50%;
+  }
+
+  .event--02,
+  .event--03,
+  .event--04 {
+    display: none;
+  }
+
+  .sidebar {
+    height: 91vh;
+  }
+
+  .banner {
+    height: 90vh;
+  }
+
+  #overlay,
+  .overlay {
+    height: 96.5%;
+  }
+
+  .carousel-indicators {
+    bottom: 3rem;
+  }
+  .calendar__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .buttons-container {
+    width: 100%;
+    padding-top: 5rem;
+  }
+
+  .carousel-indicators {
+    background-color: transparent;
+    margin-left: 0;
+    justify-content: center;
+  }
+  .banner #slidetext,
+  .design-element__yellow,
+  .design-element__dark,
+  button {
+    display: none;
+  }
+
+  .carousel-indicators--text {
+    justify-content: center;
+    flex-basis: 30%;
+  }
+  .bars-toggler {
+    display: block;
+  }
+
+  .view--all {
+    position: absolute;
+    text-decoration: underline;
+    cursor: pointer;
+    bottom: -1rem;
+    left: 45%;
+    right: auto;
+  }
+  .cta .border--line:after {
+    display: none;
+  }
+  .cta button {
+    display: block;
+  }
+  .heading-2 {
+    text-align: center;
+  }
+  .border--line + div p {
+    text-align: center;
+    font-size: 20px;
+  }
+  .form-group {
+    justify-content: center;
+  }
+
+  .class__heading span {
+    display: none;
+  }
+
+  .class__image {
+    display: none;
+  }
+
+  .class__black-box {
+    margin-bottom: 3rem;
+  }
+
+  .border--right {
+    display: none;
+  }
+}
+/* Extra small devices (-xm-, <576px) */
+@media only screen and (max-width: 575.98px) {
+  .navbar {
+    width: 40.6rem;
+    height: 5rem;
+    font-family: 'Magra', sans-serif;
+    font-weight: 700;
+    z-index: 100;
+  }
+
+  .banner {
+    height: 90vh;
+  }
+  .calendar__box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .buttons-container {
+    width: 100%;
+    padding-top: 5rem;
+  }
+
+  .carousel-indicators {
+    background-color: transparent;
+    margin-left: 0;
+    justify-content: center;
+  }
+  .banner #slidetext,
+  .design-element__yellow,
+  .design-element__dark,
+  button {
+    display: none;
+  }
+
+  .carousel-indicators--text {
+    justify-content: center;
+    flex-basis: 30%;
+  }
+  .bars-toggler {
+    display: block;
+  }
+
+  .view--all {
+    position: absolute;
+    text-decoration: underline;
+    cursor: pointer;
+    bottom: -1rem;
+    left: 45%;
+    right: auto;
+  }
+
+  .cta button {
+    display: block;
+  }
+  .form-group {
+    flex-direction: column;
+  }
+  .form-input {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .form-input::placeholder {
+    text-align: center;
+  }
+
+  .class__heading span {
+    display: none;
+  }
+
+  .class__image {
+    display: none;
+  }
+
+  .class__black-box {
+    margin-bottom: 3rem;
+  }
+
+  .border--right {
+    display: none;
+  }
+}

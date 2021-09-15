@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32.001" height="30" viewBox="0 0 32.001 30">
+  <g id="date-line" transform="translate(-2 -2)">
+    <path id="Path_105" data-name="Path 105" d="M32.25,6H29V8h3V30H4V8H7V6H3.75A1.78,1.78,0,0,0,2,7.81V30.19A1.78,1.78,0,0,0,3.75,32h28.5A1.78,1.78,0,0,0,34,30.19V7.81A1.78,1.78,0,0,0,32.25,6Z" fill="#fff"/>
+    <path id="Path_106" data-name="Path 106" d="M8,14h2v2H8Z" fill="#fff"/>
+    <path id="Path_107" data-name="Path 107" d="M14,14h2v2H14Z" fill="#fff"/>
+    <path id="Path_108" data-name="Path 108" d="M20,14h2v2H20Z" fill="#fff"/>
+    <path id="Path_109" data-name="Path 109" d="M26,14h2v2H26Z" fill="#fff"/>
+    <path id="Path_110" data-name="Path 110" d="M8,19h2v2H8Z" fill="#fff"/>
+    <path id="Path_111" data-name="Path 111" d="M14,19h2v2H14Z" fill="#fff"/>
+    <path id="Path_112" data-name="Path 112" d="M20,19h2v2H20Z" fill="#fff"/>
+    <path id="Path_113" data-name="Path 113" d="M26,19h2v2H26Z" fill="#fff"/>
+    <path id="Path_114" data-name="Path 114" d="M8,24h2v2H8Z" fill="#fff"/>
+    <path id="Path_115" data-name="Path 115" d="M14,24h2v2H14Z" fill="#fff"/>
+    <path id="Path_116" data-name="Path 116" d="M20,24h2v2H20Z" fill="#fff"/>
+    <path id="Path_117" data-name="Path 117" d="M26,24h2v2H26Z" fill="#fff"/>
+    <path id="Path_118" data-name="Path 118" d="M10,10a1,1,0,0,0,1-1V3A1,1,0,0,0,9,3V9A1,1,0,0,0,10,10Z" fill="#fff"/>
+    <path id="Path_119" data-name="Path 119" d="M26,10a1,1,0,0,0,1-1V3a1,1,0,0,0-2,0V9A1,1,0,0,0,26,10Z" fill="#fff"/>
+    <path id="Path_120" data-name="Path 120" d="M13,6H23V8H13Z" fill="#fff"/>
+  </g>
+</svg>

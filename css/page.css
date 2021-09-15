@@ -1,0 +1,44 @@
+/* * {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin: 10vh 0;
+  padding: 0 10px;
+} */
+/* 
+main {
+  display: flex;
+  max-width: 1000px;
+  margin: auto;
+} */
+
+.codeflask {
+  position: relative !important;
+  min-height: 400px;
+}
+
+.codeflask--has-line-numbers .codeflask__flatten {
+  width: auto !important;
+}
+
+.calendar-wrapper {
+  width: 100%;
+  max-width: 55rem;
+  margin: auto;
+  border: 1px solid transparent;
+  padding: 10px;
+}
+
+#calendar-wrapper {
+}
+
+#calendar-wrapper button,
+a {
+  color: #fff !important;
+}
