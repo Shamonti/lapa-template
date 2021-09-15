@@ -1,0 +1,11 @@
+<svg id="bxl-linkedin" xmlns="http://www.w3.org/2000/svg" width="12.77" height="12.748" viewBox="0 0 12.77 12.748">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: rgba(138,143,138,0.53);
+      }
+    </style>
+  </defs>
+  <path id="Path_84" data-name="Path 84" class="cls-1" d="M7.262,5.767A1.535,1.535,0,1,1,5.727,4.232,1.535,1.535,0,0,1,7.262,5.767Z" transform="translate(-4.192 -4.232)"/>
+  <path id="Path_85" data-name="Path 85" class="cls-1" d="M8.95,13.043v8.515h2.644V17.347c0-1.111.209-2.187,1.587-2.187,1.359,0,1.376,1.27,1.376,2.257v4.141H17.2v-4.67c0-2.294-.494-4.057-3.175-4.057a2.78,2.78,0,0,0-2.5,1.375h-.036V13.042H8.95Zm-4.308,0H7.29v8.515H4.642Z" transform="translate(-4.432 -8.81)"/>
+</svg>

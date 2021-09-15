@@ -1263,11 +1263,6 @@ CONTACT US PAGE
 
 	1. Banner
 	2. Details
-	3. 
-  4. 
-	5. 
-	6. 
-
 
 -----------------------------------------------------------------------------------*/
 
@@ -1401,4 +1396,331 @@ CONTACT US PAGE
 .contact-us__banner-layout {
   display: grid;
   grid-template-rows: repeat(3, min-content);
+}
+
+/*-----------------------------------------------------------------------------------
+
+FINE ARTS PAGE
+
+-----------------------------------------------------------------------------------
+
+	1. Banner
+	2. Workshop
+  3. Classes
+  4. Services
+  5. Instructors
+
+-----------------------------------------------------------------------------------*/
+
+/*************************************************
+                1. Banner    
+**************************************************/
+
+.fine-arts__banner-layout {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/FINE-ARTS__BG.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: -5rem;
+  padding: 10rem 0rem 0rem 0rem;
+}
+
+.fine-arts__image {
+  background-image: url(../images/fine-arts__image.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20rem 0;
+}
+
+.fine-arts--text {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 2rem;
+}
+
+/*************************************************
+                2. Workshop    
+**************************************************/
+.fine-arts--workshop,
+.fine-arts--classes {
+  background-color: #fff;
+}
+
+.fine-arts--workshop .heading-2,
+.fine-arts--classes .heading-2 {
+  font-weight: 700;
+  color: #2d302d;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  width: 80%;
+
+  /* Center slide text vertically */
+  /* display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex; */
+  display: flex;
+  /* -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: flex-start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center; */
+
+  text-align: left;
+}
+
+/* .swiper-slide:nth-child(2n) {
+  width: 60%;
+}
+
+.swiper-slide:nth-child(3n) {
+  width: 40%;
+} */
+
+.fine-arts--workshop-slide-image {
+  height: 30rem;
+}
+
+.fine-arts--slide-title .heading-5 {
+  font-family: 'Magra', sans-serif;
+  font-size: 4rem !important;
+  font-weight: 400;
+  color: #505450 !important;
+}
+.fine-arts--slide-text {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  color: #2d302d !important;
+  margin-bottom: 0;
+}
+
+.fine-arts--workshop-slide__icon {
+  height: 2.5rem;
+  width: 2.5rem;
+  margin-right: 1rem;
+}
+
+.fine-arts--slide-text-box-1 {
+  align-items: center;
+}
+
+.fine-arts--slide-text-box-1 .border--right {
+  border: 1px solid #8c9d9d;
+}
+
+.workshop__btn {
+  font-family: 'Magra', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  background-color: #f3c300;
+  width: 25%;
+  margin-left: auto;
+  margin-top: 2.5rem;
+  color: #505450;
+}
+
+.swiper {
+  position: relative;
+}
+
+.swiper-slide {
+  margin-top: 4rem;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: #707070;
+  color: #fff;
+  height: 2.5rem;
+
+  position: absolute;
+  top: 2rem;
+  right: 0;
+}
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+  font-size: 1.5rem;
+}
+
+.swiper-button-prev {
+  margin-left: auto;
+  margin-right: 3rem;
+}
+
+/*************************************************
+                3. Classes    
+**************************************************/
+.fine-arts--classes {
+  padding-bottom: 7rem;
+}
+.fine-arts--classes .swiper-slide {
+  width: 40%;
+}
+
+.fine-arts--classes-slide-image {
+  height: 25rem;
+}
+
+.fine-arts--classes-slide-text-box-1,
+.fine-arts--classes-slide-text-box-2 {
+  align-items: center;
+  justify-content: center;
+}
+
+.border--left {
+  border-left: 2px solid #2d302d;
+}
+
+.fine-arts--classes-instructor-image {
+  height: 3rem;
+  width: 4.5rem;
+  border-radius: 50%;
+  transform: rotateY(180deg);
+}
+
+.classes__btn {
+  font-family: 'Magra', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  background-color: transparent;
+  border: 1px solid #505450;
+
+  width: 60%;
+  margin-right: auto;
+  margin-top: 2.5rem;
+  color: #505450;
+}
+
+.navigation__btn-box {
+  background-color: #f6f6f6;
+  height: 5rem;
+  width: 100vw;
+  transform: translateY(70%);
+}
+
+.fine-arts--classes .swiper-button-prev,
+.fine-arts--classes .swiper-button-next {
+  background-color: transparent;
+  color: #000;
+  /* height: 2.5rem; */
+
+  position: absolute;
+  top: 2rem;
+  right: 0;
+}
+
+.fine-arts--classes .swiper-button-next::after,
+.fine-arts--classes .swiper-button-prev::after {
+  font-size: 1.5rem;
+  font-weight: bolder;
+}
+
+.fine-arts--classes .swiper-button-prev {
+  margin-left: auto;
+  margin-right: 3rem;
+}
+
+.navigation__btn-box--text {
+  color: #505450;
+  font-size: 2rem;
+  margin-bottom: 0;
+}
+
+/*************************************************
+                4. Services    
+**************************************************/
+.fine-arts--services {
+  background-color: #2d302d;
+}
+
+.fine-arts--services .card {
+  border: none;
+}
+
+.fine-arts--services .card-img-top {
+  border-radius: 0 !important;
+}
+
+.fine-arts--services .card-title {
+  font-family: 'Magra', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  color: #2d302d;
+}
+
+.fine-arts--services .card-text {
+  font-family: 'Magra', sans-serif;
+  font-weight: 400;
+  font-size: 2rem;
+  color: #505450;
+}
+
+.fine-arts--services .card-link,
+.fine-arts--services .card-tags,
+.fine-arts--services span {
+  font-family: 'Magra', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  color: #505450 !important;
+}
+
+.fine-arts--services .card-link {
+  text-decoration: underline;
+}
+
+/*************************************************
+                5. Instructors    
+**************************************************/
+
+.fine-arts--instructors {
+  background-color: #f6f6f6;
+}
+
+.fine-arts--instructors .heading-2 {
+  color: #505450;
+}
+
+.fine-arts--instructors .heading-2 {
+  font-family: 'Magra', sans-serif;
+  font-weight: 400;
+  font-size: 3.6rem;
+}
+
+.fine-arts--instructors .social-icon__box img {
+  height: 1.2rem;
+  filter: grayscale(100%);
+  filter: brightness(100%);
+}
+
+.fine-arts--instructors-desc {
+  font-family: 'Lato', sans-serif;
+  font-weight: 400;
+  font-size: 1.6rem;
+  color: #505450;
+}
+
+.fine-arts--instructors-details {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.fine-arts--instructors-image {
+  display: flex;
+  align-items: center;
 }

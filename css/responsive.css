@@ -271,4 +271,36 @@
   .contact-us__details {
     background-color: transparent;
   }
+  .fine-arts__image {
+    display: none;
+  }
+
+  .fine-arts--classes .swiper-slide,
+  .swiper-slide {
+    width: 100%;
+  }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    top: 3rem;
+  }
+  .fine-arts--classes .swiper-button-prev,
+  .fine-arts--classes .swiper-button-next {
+    top: 3rem;
+  }
+
+  #instructor--1 {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  #instructor--2 .fine-arts--instructors-image,
+  #instructor--2 .fine-arts--instructors-details {
+    display: none;
+  }
+
+  .social-icon__box {
+    margin-left: auto;
+    margin-right: auto;
+  }
 }
