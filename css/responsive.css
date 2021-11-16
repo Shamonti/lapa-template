@@ -303,4 +303,71 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  .program .swiper-slide {
+    width: 100%;
+  }
+  .swiper-button-prev2--02,
+  .swiper-button-next2--02,
+  .swiper-nav--text,
+  .swiper-button-prev1--02,
+  .swiper-button-next1--02 {
+    display: block;
+  }
+
+  .swiper1 .swiper-slide {
+    flex-direction: column;
+    padding: 0 1.5rem;
+  }
+
+  .swiper1 .swiper-slide--image .fine-arts--workshop-slide-image {
+    border-radius: 3rem;
+  }
+
+  .swiper1 .fine-arts--slide-title {
+    padding: 4rem 0;
+  }
+
+  .swiper1 .swiper-slide--text {
+    width: 100% !important;
+  }
+
+  .fine-arts--slide-text-box-1,
+  .fine-arts--slide-text-box-2,
+  .fine-arts--slide-text-box-3 {
+    width: max-content;
+
+    align-items: center;
+    justify-items: space-around;
+  }
+
+  .workshop__btn {
+    width: 100%;
+  }
+
+  .responsive__box--1 {
+    display: none;
+  }
+
+  .responsive__box--2 {
+    display: block;
+  }
+
+  .contact-us__form {
+    background-color: #2d302d;
+    padding: 8rem 1.5rem;
+  }
+
+  .contact-us__details {
+    padding: 0;
+  }
+
+  .swiper-button-prev1,
+  .swiper-button-next1 {
+    display: none !important;
+  }
+
+  .program--programs {
+    display: none;
+  }
 }

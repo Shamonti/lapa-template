@@ -1,0 +1,25 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="538" height="338" viewBox="0 0 538 338">
+  <defs>
+    <style>
+      .cls-1 {
+        stroke: #707070;
+        fill: url(#pattern);
+      }
+
+      .cls-2 {
+        stroke: none;
+      }
+
+      .cls-3 {
+        fill: none;
+      }
+    </style>
+    <pattern id="pattern" preserveAspectRatio="xMidYMid slice" width="100%" height="100%" viewBox="0 0 180 180">
+      <image width="180" height="180" xlink:href="Nisreen_Director-image.jpg"/>
+    </pattern>
+  </defs>
+  <g id="Nisreen_Director" class="cls-1">
+    <rect class="cls-2" width="538" height="338" rx="13"/>
+    <rect class="cls-3" x="0.5" y="0.5" width="537" height="337" rx="12.5"/>
+  </g>
+</svg>

@@ -25,7 +25,7 @@
 /*************************************************
                 1. Typography    
 **************************************************/
-@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Magra:wght@400;700&family=Rajdhani:wght@400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Montserrat:wght@400;700&family=Rajdhani:wght@400;500;600;700&display=swap');
 :root {
   --gray-light: #bebaba;
   --gray-drak: #252526;
@@ -71,9 +71,9 @@ img {
 .fix {
   overflow: hidden;
 }
-a {
+/* a {
   text-decoration: none;
-}
+} */
 a,
 .button,
 button {
@@ -210,7 +210,7 @@ label {
 .navbar {
   width: 61.6rem;
   height: 5rem;
-  font-family: 'Magra', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   z-index: 100;
 }
@@ -341,14 +341,14 @@ label {
 
 .modal--signup h1 {
   color: #fff;
-  font-family: 'Magra', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 6rem;
   line-height: 6rem;
 }
 
 .modal--signup p {
   color: #fff;
-  font-family: 'Magra', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2.4rem;
 
   /* transition: all 0.2s; */
@@ -566,7 +566,7 @@ label {
 }
 
 #slidetext {
-  font-family: 'Magra', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.2rem;
   color: #fff;
   flex: 3;
@@ -636,7 +636,7 @@ label {
 }
 
 .carousel-caption--heading {
-  font-family: 'Magra', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 9rem;
   color: #fff;
@@ -679,7 +679,7 @@ label {
 }
 
 .category__text {
-  font-family: 'Magra', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 3.4rem;
   color: #fff;
@@ -876,7 +876,7 @@ label {
 }
 
 .card-body {
-  font-family: 'Magra', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   border-radius: 1rem;
 }
@@ -911,7 +911,7 @@ label {
 }
 
 .calendar--month {
-  font-family: 'Magra', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 6rem;
 
   position: absolute;
@@ -920,19 +920,19 @@ label {
 
 .event__date {
   color: #fff;
-  font-family: 'Magra', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 5rem;
 }
 
 .event__title {
   color: #fff;
-  font-family: 'Magra', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2.5rem;
 }
 
 .event__details {
   color: #fff;
-  font-family: 'Magra', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.2rem;
 }
 .events__list {
@@ -1101,6 +1101,7 @@ label {
   font-size: 1.8rem;
   margin: 0;
   color: #bebaba;
+  line-height: 1;
 }
 
 .footer__icon {
@@ -1157,7 +1158,7 @@ CLASS PAGE
 }
 
 .heading-3 {
-  font-family: 'Magra', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 7.5rem;
   font-weight: 100;
   letter-spacing: 1.5rem;
@@ -1222,6 +1223,7 @@ span {
 .class__banner-layout label,
 p {
   color: #fff;
+  line-height: 1;
 }
 
 .class__btn {
@@ -1255,6 +1257,14 @@ p {
   color: #f3c300 !important;
 }
 
+.form-check-input {
+  margin-top: 0.2em !important;
+}
+
+.form-check-inline {
+  margin-bottom: 0;
+}
+
 /*-----------------------------------------------------------------------------------
 
 CONTACT US PAGE
@@ -1274,7 +1284,7 @@ CONTACT US PAGE
     url(../images/contact-us__bg.png);
   background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  /* background-position: center; */
   margin-top: -5rem;
   padding: 10rem 0rem 0rem 0rem;
 }
@@ -1292,7 +1302,7 @@ CONTACT US PAGE
 }
 
 .heading-4 {
-  font-family: 'Magra', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 4rem;
   font-weight: 700;
   color: #fff;
@@ -1302,6 +1312,7 @@ CONTACT US PAGE
   font-family: 'Lato', sans-serif;
   font-size: 1.5rem;
   font-weight: 400;
+  line-height: 1.5;
 }
 
 .contact-us__details--social-img {
@@ -1319,6 +1330,7 @@ CONTACT US PAGE
   font-weight: 700;
   font-size: 2.5rem;
   color: #fff;
+  line-height: 1;
 }
 
 .contact-us__design-element--small {
@@ -1380,7 +1392,7 @@ CONTACT US PAGE
 }
 
 .contact-us__btn {
-  font-family: 'Magra', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 2rem;
   font-weight: 400;
   color: #fff;
@@ -1438,6 +1450,7 @@ FINE ARTS PAGE
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 2rem;
+  line-height: 1;
 }
 
 /*************************************************
@@ -1495,7 +1508,7 @@ FINE ARTS PAGE
 }
 
 .fine-arts--slide-title .heading-5 {
-  font-family: 'Magra', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-size: 4rem !important;
   font-weight: 400;
   color: #505450 !important;
@@ -1523,7 +1536,7 @@ FINE ARTS PAGE
 }
 
 .workshop__btn {
-  font-family: 'Magra', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 2rem;
   background-color: #f3c300;
@@ -1562,6 +1575,18 @@ FINE ARTS PAGE
   margin-right: 3rem;
 }
 
+.swiper-button-prev1,
+.swiper-button-next1 {
+  display: block !important;
+}
+
+.swiper-button-prev1::after,
+.swiper-button-next1::after {
+  display: flex;
+  justify-content: center;
+  padding-top: 5px;
+}
+
 /*************************************************
                 3. Classes    
 **************************************************/
@@ -1594,7 +1619,7 @@ FINE ARTS PAGE
 }
 
 .classes__btn {
-  font-family: 'Magra', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 2rem;
   background-color: transparent;
@@ -1641,6 +1666,64 @@ FINE ARTS PAGE
   margin-bottom: 0;
 }
 
+.swiper-button-prev1,
+.swiper-button-next1,
+.swiper-button-prev1--02,
+.swiper-button-next1--02 {
+  display: none;
+}
+
+.swiper-button-prev1--02,
+.swiper-button-next1--02 {
+  background-color: transparent;
+}
+
+.swiper-button-prev1--02 {
+  margin-left: 34vw;
+}
+
+.swiper-button-next1--02 {
+  margin-right: 33vw;
+}
+
+.swiper-nav--text-1 {
+  transform: translateY(1.2rem) !important;
+}
+
+.swiper-button-prev1--02::after,
+.swiper-button-prev2--02::after,
+.swiper-button-prev3::after {
+  content: '\2190';
+  color: #000;
+}
+
+.swiper-button-next1--02::after,
+.swiper-button-next2--02::after,
+.swiper-button-next3::after {
+  content: '\2192';
+  color: #000;
+}
+
+.swiper-button-prev2--02 {
+  margin-left: 36.5vw !important;
+}
+
+.swiper-button-next2--02 {
+  margin-right: 36vw;
+}
+
+.swiper-button-prev2--02,
+.swiper-button-next2--02,
+.swiper-nav--text {
+  display: none;
+}
+
+.swiper-nav--text {
+  color: black;
+  transform: translateY(1rem);
+  line-height: 0;
+}
+
 /*************************************************
                 4. Services    
 **************************************************/
@@ -1657,14 +1740,14 @@ FINE ARTS PAGE
 }
 
 .fine-arts--services .card-title {
-  font-family: 'Magra', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 700;
   font-size: 2rem;
   color: #2d302d;
 }
 
 .fine-arts--services .card-text {
-  font-family: 'Magra', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 2rem;
   color: #505450;
@@ -1673,7 +1756,7 @@ FINE ARTS PAGE
 .fine-arts--services .card-link,
 .fine-arts--services .card-tags,
 .fine-arts--services span {
-  font-family: 'Magra', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 1.4rem;
   color: #505450 !important;
@@ -1696,7 +1779,7 @@ FINE ARTS PAGE
 }
 
 .fine-arts--instructors .heading-2 {
-  font-family: 'Magra', sans-serif;
+  font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 3.6rem;
 }
@@ -1710,8 +1793,9 @@ FINE ARTS PAGE
 .fine-arts--instructors-desc {
   font-family: 'Lato', sans-serif;
   font-weight: 400;
-  font-size: 1.6rem;
+  font-size: 2rem;
   color: #505450;
+  line-height: 1;
 }
 
 .fine-arts--instructors-details {
@@ -1723,4 +1807,176 @@ FINE ARTS PAGE
 .fine-arts--instructors-image {
   display: flex;
   align-items: center;
+}
+
+.swiper3 .swiper-slide {
+  background-color: #f6f6f6;
+}
+
+.swiper-button-prev3,
+.swiper-button-next3 {
+  background-color: transparent;
+}
+
+.swiper-button-prev3 {
+  margin-left: 33vw;
+}
+.swiper-button-next3 {
+  margin-right: 35vw;
+}
+
+.responsive__box--2 {
+  display: none;
+}
+
+.instructors_link {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  line-height: 1;
+  font-weight: 700;
+  color: #505450 !important;
+}
+
+/*-----------------------------------------------------------------------------------
+
+Program PAGE
+
+-----------------------------------------------------------------------------------
+
+	1. Banner
+	2. Program
+
+
+-----------------------------------------------------------------------------------*/
+
+/*************************************************
+                1. Banner    
+**************************************************/
+
+.program__banner-layout {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/contact-us__bg.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-top: -5rem;
+  padding: 10rem 0rem 0rem 0rem;
+}
+
+.program__image {
+  background-image: url(../images/Capture.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  padding: 20rem 0;
+  margin-top: 6rem;
+  margin-bottom: 5rem;
+}
+
+.program .heading-5 {
+  color: #fff;
+}
+
+.check__icon {
+  height: 1.1rem;
+  width: 1.4rem;
+}
+
+.program__text-box--1 {
+  background-color: #8a8f8a;
+}
+
+.program__text-box--2 {
+  background-color: #8a8f8a;
+}
+
+.program__text-box--3 {
+  background-color: #989898;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.program__btn {
+  background-color: #f3c300;
+  border: none;
+  outline: none;
+  border-radius: 0.3rem;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2rem;
+  font-weight: 400;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+/*************************************************
+                2. Program    
+**************************************************/
+.program__slide-01 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/program__slide-01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.program__slide-02 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/program__slide-02.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.program__slide-03 {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url(../images/program__slide-03.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.program .swiper-slide {
+  border-radius: 0.5rem;
+  height: 25rem;
+  width: 35rem;
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+}
+
+.program__slide-title {
+  font-family: 'Lato', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 400;
+}
+
+.program__slide-span {
+  font-family: 'Lato', sans-serif;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+
+.program--programs {
+  background-color: #2d302d;
+}
+
+.program .heading-2 {
+  font-size: 4.5rem;
+}
+.swiper-container {
+  position: relative;
+}
+
+.program .swiper-button-prev {
+  position: absolute;
+  top: 4rem;
+  right: auto;
+}
+
+.program .swiper-button-next {
+  position: absolute;
+  top: 4rem;
+  left: 4rem;
 }
