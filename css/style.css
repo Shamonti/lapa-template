@@ -52,7 +52,7 @@ body {
   font-style: normal;
   /* background-color: #f8f8f8; */
   font-size: 1.6rem;
-  line-height: 1.8rem;
+  line-height: 1.8;
   color: #fff;
 }
 .img {
@@ -232,7 +232,7 @@ label {
   font-size: 2rem;
   color: #fff !important;
   letter-spacing: 0.4rem;
-  line-height: 1.5rem;
+  line-height: 1.5;
   padding: 1.4rem;
 }
 
@@ -265,7 +265,7 @@ label {
 }
 
 .menu a {
-  line-height: 1rem !important;
+  line-height: 1 !important;
 }
 
 .bars-toggler {
@@ -857,6 +857,9 @@ label {
   5.
   Events
   **************************************************/
+.events {
+  background-color: white;
+}
 .heading-1 {
   font-family: 'Montserrat', sans-serif;
   font-size: 6rem;
@@ -1180,7 +1183,7 @@ span {
   font-family: 'Lato', sans-serif;
   font-weight: 300;
   font-size: 2rem;
-  line-height: 3;
+  line-height: 1;
 
   align-self: flex-end;
 }
@@ -1746,7 +1749,7 @@ FINE ARTS PAGE
   color: #2d302d;
 }
 
-.fine-arts--services .card-text {
+.card-text {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
   font-size: 2rem;
@@ -1781,7 +1784,7 @@ FINE ARTS PAGE
 .fine-arts--instructors .heading-2 {
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
-  font-size: 3.6rem;
+  font-size: 3rem;
 }
 
 .fine-arts--instructors .social-icon__box img {
@@ -1980,3 +1983,11 @@ Program PAGE
   top: 4rem;
   left: 4rem;
 }
+
+.footer .footer__text a {
+  text-decoration: none;
+}
+
+/* .footer span {
+  line-height: 1;
+} */
